@@ -1,0 +1,31 @@
+.about {
+    padding: 60px 0px;
+    overflow: hidden;
+}
+.about-title {
+font-size: 32px;
+margin-bottom: 30px;
+text-align: center;
+}
+.about-content {
+    font-size: 16px;
+    text-align: center;
+    line-height: 147%;
+    margin-bottom: 25px;
+}
+.about-slider {
+    overflow: visible !important;
+}
+.about-img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+.about-slider-pagination {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.about-slider-pagination .swiper-pagination-bullet {
+    background: #578aa1 !important;
+}

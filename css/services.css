@@ -1,0 +1,47 @@
+.services {
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0px;
+    background-color: #88c7be;
+    color: white;
+    z-index: 1;
+}
+.services::after {
+    position: absolute;
+    content: "";
+    width: 400px;
+    height: 400px;
+    background-color: #4ea5b1;
+    right: -150px;
+    top: 20px;
+    border-radius: 50%;
+    filter:blur(70px);
+    z-index: -1;
+}
+.services-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.services-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.services-item {
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+    position: relative;
+    font-size: 18px;
+    text-align: center;
+}
+.services-item::before {
+    position:absolute;
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #db0c28;
+    left: 0;
+}

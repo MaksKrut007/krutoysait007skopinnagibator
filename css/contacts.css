@@ -1,0 +1,33 @@
+.contacts {
+    padding: 50px 0px;
+}
+.contacts-title {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.contacts-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 15px;
+}
+.contacts-input {
+    outline: none;
+    background-color: white;
+    border: none;
+    padding: 20px 15px;
+    font-size: 16px;
+}
+.contacts-btn {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background-color: #578aa1;
+    border: 1px solid #578aa1;
+    padding: 20px;
+    font-size: 16px;
+    color: white;
+    transition: color .2s ease, background-color .2s ease;
+}
