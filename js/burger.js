@@ -4,7 +4,7 @@ const burgerMenu = document.querySelector(".header-nav");
 burgerBtn.addEventListener("click", (event) => {
   event.stopPropagation();
     if (burgerMenu.classList.contains("open")) {
-      burgerclose();
+      burgerClose();
     }
     else { 
       burgerOpen();
